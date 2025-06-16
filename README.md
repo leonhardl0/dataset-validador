@@ -33,7 +33,7 @@ Para esta classe, foram utilizadas imagens de múltiplos datasets públicos para
 * [The Vertebrae X-Ray Images](https://www.kaggle.com/datasets/yasserhessein/the-vertebrae-xray-images) - Raio-X de Vértebras
 * [Spine Fracture Prediction from X-Rays](https://www.kaggle.com/datasets/vuppalaadithyasairam/spine-fracture-prediction-from-xrays/data) - Raio-X da Coluna
 * [Computed Tomography (CT) of the Brain](https://www.kaggle.com/datasets/trainingdatapro/computed-tomography-ct-of-the-brain) - Tomografias do Cérebro
-* [Bone Fracture Dataset](https://www.kaggle.com/datasets/orvile/bone-fracture-dataset) - Raio-X da Tíbia e Fíbula
+* [Bone Fracture Dataset](https://www.kaggle.com/datasets/orvile/bone-fracture-dataset) - Raios-X da Tíbia e Fíbula
 
 ### Classe `Outros` (Imagens Não-Raio-X, ~2200 imagens)
 
