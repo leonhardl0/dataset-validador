@@ -95,8 +95,9 @@ Para ensinar ao modelo o que **não** é um raio-X, foram utilizadas imagens dos
 
 Para que o projeto funcione corretamente, os arquivos e pastas devem seguir a estrutura abaixo:
 
+```
 seu-repositorio/
-│
+
 ├── dataset_validador/         <-- Pasta para os dados de treinamento (se for treinar)
 │   ├── Raio-X/
 │   │   ├── imagem_raiox_1.jpg
@@ -104,12 +105,13 @@ seu-repositorio/
 │   └── Outros/
 │       ├── imagem_aleatoria_1.jpg
 │       └── ...
-│
+
 ├── treinar_validador_raiox.py   <-- Script para treinar o modelo
-├── validar_imagem.py          <-- Script para validar uma nova imagem
-├── validador_raiox.keras      <-- O modelo pré-treinado
-├── requirements.txt           <-- Lista de dependências
-└── README.md                  <-- Este arquivo
+├── validar_imagem.py            <-- Script para validar uma nova imagem
+├── validador_raiox.keras        <-- O modelo pré-treinado
+├── requirements.txt             <-- Lista de dependências
+└── README.md                    <-- Este arquivo
+```
 
 ## Pré-requisitos
 
