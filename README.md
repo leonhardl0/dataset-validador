@@ -61,10 +61,10 @@ O modelo foi treinado com um conjunto de dados altamente diversificado para iden
 ## Funcionalidades Principais
 
 * **Classificação Binária**: Distingue com precisão entre imagens da classe `Raio-X` e da classe `Outros`.
-* [cite_start]**Modelo Pré-Treinado Incluso**: Um modelo `validador_raiox.keras` já treinado está disponível no repositório para uso imediato. 
-* [cite_start]**Script de Treinamento**: Inclui o script `treinar_validador_raiox.py` para que qualquer pessoa possa treinar o modelo do zero com seu próprio conjunto de dados. 
-* [cite_start]**Script de Validação**: Oferece o script `validar_imagem.py` para classificar facilmente uma nova imagem. 
-* [cite_start]**Suporte a Múltiplos Formatos**: O sistema foi projetado para carregar e processar imagens nos formatos `.png`, `.jpg` e `.jpeg`. 
+* **Modelo Pré-Treinado Incluso**: Um modelo `validador_raiox.keras` já treinado está disponível no repositório para uso imediato. 
+* **Script de Treinamento**: Inclui o script `treinar_validador_raiox.py` para que qualquer pessoa possa treinar o modelo do zero com seu próprio conjunto de dados. 
+* **Script de Validação**: Oferece o script `validar_imagem.py` para classificar facilmente uma nova imagem. 
+* **Suporte a Múltiplos Formatos**: O sistema foi projetado para carregar e processar imagens nos formatos `.png`, `.jpg` e `.jpeg`. 
 
 ## Modelo Pré-Treinado
 
