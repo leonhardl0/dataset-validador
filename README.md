@@ -98,7 +98,7 @@ Para que o projeto funcione corretamente, os arquivos e pastas devem seguir a es
 ```
 seu-repositorio/
 
-├── dataset_validador/         <-- Pasta para os dados de treinamento (se for treinar)
+├── dataset_validador/         <-- pasta para os dados de treinamento (se for treinar)
 │   ├── Raio-X/
 │   │   ├── imagem_raiox_1.jpg
 │   │   └── ...
@@ -106,11 +106,11 @@ seu-repositorio/
 │       ├── imagem_aleatoria_1.jpg
 │       └── ...
 
-├── treinar_validador_raiox.py   <-- Script para treinar o modelo
-├── validar_imagem.py            <-- Script para validar uma nova imagem
-├── validador_raiox.keras        <-- O modelo pré-treinado
-├── requirements.txt             <-- Lista de dependências
-└── README.md                    <-- Este arquivo
+├── treinar_validador_raiox.py   <-- script para treinar o modelo
+├── validar_imagem.py            <-- script para validar uma nova imagem
+├── validador_raiox.keras        <-- o modelo pré-treinado
+├── requirements.txt             <-- lista de dependências
+└── README.md                    <-- este arquivo
 ```
 
 ## Pré-requisitos
