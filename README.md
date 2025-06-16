@@ -43,58 +43,6 @@ Para ensinar ao modelo o que **não** é um raio-X, foram utilizadas imagens dos
 
 ## Estrutura do Projeto
 
-Para que o projeto funcione corretamente, os arquivos e pastas devem seguir a estrutura abaixo:
-Com certeza. Aqui está o conteúdo completo para o seu arquivo README.md, pronto para ser copiado e colado diretamente no GitHub.
-
-Markdown
-
-# Validador de Imagens de Raio-X (Radiology Image Validator)
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg) ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange.svg) ![Keras](https://img.shields.io/badge/Keras-Powered-red.svg)
-
-## Visão Geral
-
-Este projeto implementa uma Rede Neural Convolucional (CNN) robusta, projetada para funcionar como um validador de imagens de raios-X. O objetivo principal é classificar uma imagem de entrada em uma de duas categorias: `Raio-X` ou `Outros`.
-
-O modelo foi treinado com um conjunto de dados altamente diversificado para identificar com precisão se uma imagem é uma radiografia de qualquer parte do corpo ou se é uma imagem aleatória (animais, objetos, paisagens, etc.). Ele serve como um excelente filtro de entrada para qualquer sistema que precise garantir que está processando apenas imagens radiológicas.
-
-## Funcionalidades Principais
-
-* **Classificação Binária**: Distingue com precisão entre imagens da classe `Raio-X` e da classe `Outros`.
-* **Modelo Pré-Treinado Incluso**: Um modelo `validador_raiox.keras` já treinado está disponível no repositório para uso imediato. 
-* **Script de Treinamento**: Inclui o script `treinar_validador_raiox.py` para que qualquer pessoa possa treinar o modelo do zero com seu próprio conjunto de dados. 
-* **Script de Validação**: Oferece o script `validar_imagem.py` para classificar facilmente uma nova imagem. 
-* **Suporte a Múltiplos Formatos**: O sistema foi projetado para carregar e processar imagens nos formatos `.png`, `.jpg` e `.jpeg`. 
-
-## Modelo Pré-Treinado
-
-Para facilitar o uso, este repositório inclui o arquivo `validador_raiox.keras`. Este modelo foi treinado com o extenso conjunto de dados descrito abaixo e pode ser usado para inferência imediata sem a necessidade de treinamento.
-
-## Dataset Utilizado para Treinamento
-
-O modelo foi treinado com um conjunto de dados balanceado e diversificado, contendo aproximadamente 4400 imagens no total (2200 por classe).
-
-### Classe `Raio-X` (2200 imagens)
-
-Para esta classe, foram utilizadas imagens de múltiplos datasets públicos para cobrir diversas partes do corpo e tipos de exames:
-
-* [NIH ChestX-ray Dataset](https://www.kaggle.com/datasets/nih-chest-xrays/data) - Raio-X de Tórax
-* [Knee Osteoarthritis Dataset](https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity) - Raio-X de Joelhos
-* [The Vertebrae X-Ray Images](https://www.kaggle.com/datasets/yasserhessein/the-vertebrae-xray-images) - Raio-X de Vértebras
-* [Spine Fracture Prediction from X-Rays](https://www.kaggle.com/datasets/vuppalaadithyasairam/spine-fracture-prediction-from-xrays/data) - Raio-X da Coluna
-* [Computed Tomography (CT) of the Brain](https://www.kaggle.com/datasets/trainingdatapro/computed-tomography-ct-of-the-brain) - Tomografias do Cérebro
-* [Bone Fracture Dataset](https://www.kaggle.com/datasets/orvile/bone-fracture-dataset) - Fraturas da Tíbia e Fíbula
-
-### Classe `Outros` (Imagens Não-Raio-X, ~2200 imagens)
-
-Para ensinar ao modelo o que **não** é um raio-X, foram utilizadas imagens dos datasets **Imagenette** e **Imagewoof** (versões de 320 pixels). Estes datasets contêm fotos de animais, objetos e cenas do cotidiano.
-
-* **Fonte:** [fastai/imagenette](https://github.com/fastai/imagenette)
-
-## Estrutura do Projeto
-
-Para que o projeto funcione corretamente, os arquivos e pastas devem seguir a estrutura abaixo:
-
 ```
 seu-repositorio/
 
