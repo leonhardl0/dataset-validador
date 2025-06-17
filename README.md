@@ -82,7 +82,7 @@ seu-repositorio/
 2.  **Crie um ambiente virtual (altamente recomendado):**
     ```bash
     python -m venv venv
-    source venv/bin/activate  # No Windows: venv\Scripts\activate
+    source venv/bin/activate  # no Windows: venv\Scripts\activate
     ```
 
 3.  **Instale as dependências:**
