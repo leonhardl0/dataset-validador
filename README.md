@@ -101,7 +101,7 @@ Esta é a forma mais comum, para quem deseja apenas usar o validador.
 1.  **Abra o arquivo `validar_imagem.py`** em um editor de texto. 
 2.  **⚠️ IMPORTANTE:** Altere a variável `caminho_sua_imagem` para o caminho completo da imagem que você deseja analisar. 
     ```python
-    # Altere esta linha com o caminho da sua imagem
+    # altere esta linha com o caminho da sua imagem
     caminho_sua_imagem = "C:/Users/seu_nome/Desktop/imagem_teste.png" 
     ```
 3.  **Execute o script** no seu terminal:
@@ -118,7 +118,7 @@ Para usuários avançados que desejam treinar o modelo com seu próprio conjunto
 2.  **Abra o arquivo `treinar_validador_raiox.py`**. 
 3.  **⚠️ IMPORTANTE:** Altere a variável `pasta_base_dataset` para o caminho da sua pasta de dataset. 
     ```python
-    # Altere esta linha com o caminho do seu dataset
+    # altere esta linha com o caminho do seu dataset
     pasta_base_dataset = "dataset_validador" 
     ```
 4.  **Execute o treinamento** no seu terminal:
