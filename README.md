@@ -46,7 +46,7 @@ Para ensinar ao modelo o que **não** é um raio-X, foram utilizadas imagens dos
 ```
 seu-repositorio/
 
-├── dataset_validador/         <-- pasta para os dados de treinamento (se for treinar)
+├── dataset-validador-main/         <-- pasta para os dados de treinamento (se for treinar)
 │   ├── Raio-X/
 │   │   ├── imagem_raiox_1.jpg
 │   │   └── ...
