@@ -101,7 +101,7 @@ Esta é a forma mais comum, para quem deseja apenas usar o validador.
 1.  **Abra o arquivo `validar_imagem.py`** em um editor de texto. 
 2.  **⚠️ IMPORTANTE:** Altere a variável `caminho_sua_imagem` para o caminho completo da imagem que você deseja analisar. 
     ```python
-    # altere esta linha com o caminho da sua imagem
+    # altere essa linha com o caminho da sua imagem
     caminho_sua_imagem = "C:/Users/seu_nome/Desktop/imagem_teste.png" 
     ```
 3.  **Execute o script** no seu terminal:
