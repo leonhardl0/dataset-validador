@@ -35,7 +35,7 @@ Para esta classe, foram utilizadas imagens de múltiplos datasets públicos para
 * [Computed Tomography (CT) of the Brain](https://www.kaggle.com/datasets/trainingdatapro/computed-tomography-ct-of-the-brain) - Tomografias do Cérebro
 * [Bone Fracture Dataset](https://www.kaggle.com/datasets/orvile/bone-fracture-dataset) - Raios-X da Tíbia e Fíbula
 
-### Classe `Outros` (Imagens Não-Raio-X, ~2200 imagens)
+### Classe `Outros` (Imagens Não-Raio-X, 2200 imagens)
 
 Para ensinar ao modelo o que **não** é um raio-X, foram utilizadas imagens dos datasets **Imagenette** e **Imagewoof** (versões de 320 pixels). Estes datasets contêm fotos de animais, objetos e cenas do cotidiano.
 
